@@ -5,6 +5,13 @@
 :root {
     /*--variable-name */
     --primary-font: "Oswald", sans-serif;
+    --primary-color: #002060; /* Dark Blue */
+    --secondary-color: #416a8e; /* blue */
+    --tertiary-color: #BDD7EE; /* light blue */
+    --primary-highlight: #CF2F7F; /* Dark pink */ 
+    --secondary-highlight: #ca5891; /*Pink */ 
+    --light-highlight: #EEB4D1; /* light pink */
+    --light-light-highlight: #EEB4D1; /* light pink */
 }
 /* General styles */
 body {

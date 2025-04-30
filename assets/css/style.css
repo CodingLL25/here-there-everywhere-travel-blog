@@ -32,3 +32,17 @@ main {
     /* Main element to take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
+
+/* Footer */
+.contact {
+    background-color: var(--primary-color);
+}
+
+.social-links {
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 150%;
+}

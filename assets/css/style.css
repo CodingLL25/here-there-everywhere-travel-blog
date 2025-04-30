@@ -46,3 +46,12 @@ main {
     list-style-type: none;
     font-size: 150%;
 }
+
+.contact .social-links i {
+    color: var(--tertiary-color);
+    transition: color 0.2s ease-in-out;
+}
+
+.contact .social-links i:hover {
+    color: var(--light-light-highlight);
+}

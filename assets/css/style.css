@@ -21,6 +21,12 @@ body {
     font-family: var(--primary-font);
 }
 
+
+/* Navbar styling */
+#navbar {
+    background-color: var(--tertiary-color);
+}
+
 /* Main content */
 main {
     /* Main element to take up any surplus space to push footer down */

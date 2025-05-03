@@ -66,6 +66,9 @@ main {
 
 .introduction {
     padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgba(189, 215, 238, 0.35);
+    position: relative;
 }
 
 /* Footer */

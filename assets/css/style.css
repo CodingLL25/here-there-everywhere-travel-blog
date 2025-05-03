@@ -60,9 +60,14 @@ main {
     width: 100%;
 }
 
-.home-cover-text > h2 {
+.home-cover-text > h2, .introduction > h2 {
     color: var(--secondary-color);
 }
+
+.introduction {
+    padding-top: 3px;
+}
+
 /* Footer */
 .contact {
     background-color: var(--primary-color);

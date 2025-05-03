@@ -36,15 +36,16 @@ main {
 /* Footer */
 .contact {
     background-color: var(--primary-color);
+    height: 60px;
 }
 
 .social-links {
     text-align: center;
-    padding: 15px 0;
+    padding: 14px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    font-size: 150%;
+    font-size: 130%;
 }
 
 .contact .social-links i {

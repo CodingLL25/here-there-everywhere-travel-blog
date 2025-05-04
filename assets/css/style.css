@@ -46,6 +46,7 @@ main {
     max-width: 1399px;
     justify-content: center;
     margin: auto;
+    position: relative;
 }
 
 .cover-image {
@@ -71,6 +72,9 @@ main {
     position: relative;
 }
 
+.coverage {
+    padding-top: 5px;
+}
 .coverage > h2 {
     color: var(--primary-color);
 }

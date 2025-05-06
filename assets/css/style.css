@@ -30,11 +30,13 @@ body {
 h1, h2, h3, h4 {
     padding-left: 5px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h2 {
     color: var(--secondary-color);
 }
+
 p {  
     padding-left: 1.0rem;
     padding-right: 1.0rem;
@@ -87,15 +89,13 @@ main {
     margin-right:0;
 }
 
-.coverage > h2 {
+.coverage > h2, .activities-overview > h2 {
     color: var(--primary-color);
 }
 
 .coverage h3 {
     color: var(--secondary-color);
 }
-
-/* Best bits */
 
 /* Footer */
 .contact {

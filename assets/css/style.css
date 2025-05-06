@@ -78,6 +78,7 @@ main {
     position: relative;
 }
 
+/* Country coverage summary */
 .coverage {
     padding-top: 5px;
 }
@@ -93,6 +94,9 @@ main {
 .coverage h3 {
     color: var(--secondary-color);
 }
+
+/* Best bits */
+
 /* Footer */
 .contact {
     background-color: var(--primary-color);

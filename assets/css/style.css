@@ -37,6 +37,10 @@ h2 {
     color: var(--secondary-color);
 }
 
+h3 {
+    color: var(--secondary-color);
+}
+
 p {  
     padding-left: 1.0rem;
     padding-right: 1.0rem;
@@ -93,8 +97,13 @@ main {
     color: var(--primary-color);
 }
 
-.coverage h3 {
-    color: var(--secondary-color);
+/* Activites section */
+.activities-overview {
+    background-color: rgba(189, 215, 238, 0.35);
+}
+
+.activities-overview h2 {
+    padding: 3px;
 }
 
 /* Footer */

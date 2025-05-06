@@ -75,6 +75,11 @@ main {
 .coverage {
     padding-top: 5px;
 }
+.coverage > .row {
+    margin-left: 0;
+    margin-right:0;
+}
+
 .coverage > h2 {
     color: var(--primary-color);
 }

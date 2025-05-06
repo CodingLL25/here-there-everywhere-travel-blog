@@ -13,6 +13,12 @@
     --light-highlight: #EEB4D1; /* light pink */
     --light-light-highlight: #EEB4D1; /* light pink */
 }
+
+/* Override overscroll behavior */
+* {
+    overscroll-behavior: none;
+}
+
 /* General styles */
 body {
     min-height: 120vh;

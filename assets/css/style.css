@@ -106,6 +106,15 @@ main {
     padding: 3px;
 }
 
+.activities-list {
+    list-style-type: none;
+    display: block;
+}
+
+.activities-list i {
+    padding: 2px;
+    
+}
 /* Footer */
 .contact {
     background-color: var(--primary-color);

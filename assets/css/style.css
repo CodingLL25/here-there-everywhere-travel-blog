@@ -95,13 +95,12 @@ main {
     position: relative;
 }
 
+.introduction h2, .introduction p {
+    margin: 10px;
+}
 /* Country coverage summary */
 .coverage {
-    padding-top: 5px;
-}
-.coverage > .row {
-    margin-left: 0;
-    margin-right:0;
+    margin: 10px;
 }
 
 .coverage > h2, .activities-overview > h2 {
@@ -111,10 +110,15 @@ main {
 /* Activites section */
 .activities-overview {
     background-color: rgba(189, 215, 238, 0.35);
+    width: 100%;
+}
+
+.activities-overview > div {
+    margin: 10px;
 }
 
 .activities-overview h2 {
-    padding: 3px;
+    margin: 10px;
 }
 
 .activities-list {
@@ -124,7 +128,7 @@ main {
 
 .activities-list i {
     padding: 2px;
-    
+    padding-bottom: 10px;
 }
 
 /* Footer */

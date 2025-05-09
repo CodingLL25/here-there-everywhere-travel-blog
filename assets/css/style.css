@@ -23,6 +23,7 @@
 body {
     min-height: 120vh;
     display: flex;
+    width: 100%;
     flex-direction: column;
     font-family: var(--primary-font);
 }
@@ -47,8 +48,15 @@ p {
 }
 
 /* Navbar styling */
+header {
+    display: flex;
+    width: 100%;
+}
+
 #navbar {
     background-color: var(--tertiary-color);
+    display: flex;
+    width: 100%;
 }
 
 /* Main content */
@@ -117,6 +125,11 @@ main {
 }
 
 /* Footer */
+footer {
+    display: flex;
+    width: 100%;
+}
+
 .contact {
     background-color: var(--primary-color);
     height: 60px;

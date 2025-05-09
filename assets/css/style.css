@@ -105,6 +105,7 @@ main {
 
 .coverage > h2, .activities-overview > h2 {
     color: var(--primary-color);
+    padding-top: 10px;
 }
 
 /* Activites section */

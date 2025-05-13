@@ -149,13 +149,13 @@ header {
 }
 
 /* Form */
-.signup-form {
+.signup-form, .response-form {
     background: url("../images/home-background.jpeg");
     background-size: cover;
     width: 100%;
 }
 
-.form {
+.form, .response {
     color: #ffffff;
     background-color: rgb(247, 247, 247, 0.9);
     padding: 30px;

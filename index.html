@@ -24,10 +24,11 @@
 </head>
 
 <body>
+    <!-- Navigation bar -->
     <header>
         <nav id="navbar" class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Here, There, Everywhere</a>
+                <a aria-label="Go to the home page" class="navbar-brand" href="index.html">Here, There, Everywhere</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -35,9 +36,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        <a class="nav-link" href="cities.html">Countries</a>
-                        <a class="nav-link" href="form.html">Sign-me up</a>
+                        <a aria-label="Go to the home page" class="nav-link active" aria-current="page"
+                            href="index.html">Home</a>
+                        <a aria-label="Go to the cities page" class="nav-link" href="cities.html">Countries</a>
+                        <a aria-label="Go to the sign-up form page" class="nav-link" href="form.html">Sign-me up</a>
                     </div>
                 </div>
             </div>
@@ -68,6 +70,7 @@
         <section id="country-coverage" class="coverage">
             <h2>Highlights so far</h2>
             <div class="row">
+                <!-- Main section describing: Japan-->
                 <div class="japan col-12 col-md-6">
                     <h3>Japan</h3>
                     <p>Japan has always been high on my bucketlist, and this year I was lucky enough to venture over and
@@ -82,6 +85,7 @@
                         blossom season. However, the cost of food and transport is more than affordable, with tasty
                         ramens available for £5! </p>
                 </div>
+                <!-- Main section describing: Europe-->
                 <div class="europe col-12 col-md-6">
                     <h3>Europe</h3>
                     <p>Europe has been a go-to travel destination over the past few years, due to the accessibility and
@@ -97,7 +101,7 @@
                     </p>
                 </div>
             </div>
-
+            <!-- Main section describing: United Kingdom-->
             <div class="row">
                 <div class="united-kingdom col-12 col-md-6">
                     <h3>United Kingdom</h3>
@@ -106,6 +110,7 @@
                         Staycations provide a perfect opportunity to escape and enjoy the countryside, which is
                         perfect if you want to bring your pup-baby along.</p>
                 </div>
+                <!-- Main section describing: United states-->
                 <div class="united-states col-12 col-md-6">
                     <h3>United States</h3>
                     <p>Considering there are over 50 states to explore, I barely scratched the surface. Starting on
@@ -161,16 +166,20 @@
         </section>
     </main>
 
+    <!-- Footer and socials-->
     <footer class="contact">
         <ul class="social-links">
             <li>
-                <a href="mailto:laurenseelee@gmail.com"><i class="fa-solid fa-envelope" rel="noopener"
-                        aria-label="Contact us via email (opens in a new tab / email)"></i></a>
+                <a href="mailto:laurenseelee@gmail.com" target="_blank" rel="noopener"
+                    aria-label="Contact us via email (opens in a new tab / email)">
+                    <i class="fa-solid fa-envelope" rel="noopener"></i>
+                </a>
             </li>
             <li>
                 <a href="https://www.instagram.com/anothertravelaccount_?igsh=MTQycGwyOXFmdWF3NQ%3D%3D&utm_source=qr"
-                    target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a>
+                    target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
             </li>
         </ul>
     </footer>

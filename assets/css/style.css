@@ -22,6 +22,15 @@
 }
 
 /* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: var(--primary-font);
+    overflow-x: hidden;
+}
+
 main {
     /* Main element to take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -34,14 +43,6 @@ main {
     flex-direction: column;
 }
 
-body {
-    min-height: 100vh;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    font-family: var(--primary-font);
-    overflow-x: hidden;
-}
 
 h1, h2, h3, h4 {
     padding-left: 5px;

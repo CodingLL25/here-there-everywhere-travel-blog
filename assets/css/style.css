@@ -137,7 +137,17 @@ header {
     padding-bottom: 10px;
 }
 
-/* Cities page */
+
+/* Cities page - overview */
+.city-coverage {
+    margin-top: 20px;
+}
+
+.city-coverage > h2 {
+    background-color: rgba(189, 215, 238, 0.35);
+}
+
+/* Cities page - gallery */
 .gallery {
     display: flex;
     column-count: 3;

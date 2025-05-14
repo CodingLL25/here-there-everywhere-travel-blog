@@ -5,9 +5,10 @@
 :root {
     /*--variable-name */
     --primary-font: "Oswald", sans-serif;
-    --primary-color: rgb(0, 32, 96); /* Dark Blue */
-    --secondary-color: rgb(65, 106, 142); /* blue */
-    --light-highlight: rgb(238, 180, 209); /* light pink */
+    --primary-color: #002060; /* Dark Blue */
+    --secondary-color: #416a8e; /* blue */
+    --tertiary-color: #BDD7EE; /* light blue */
+    --light-highlight: #EEB4D1; /* light pink */
 }
 
 /* Override overscroll behavior */

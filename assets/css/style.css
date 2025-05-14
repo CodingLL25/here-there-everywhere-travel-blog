@@ -5,13 +5,9 @@
 :root {
     /*--variable-name */
     --primary-font: "Oswald", sans-serif;
-    --primary-color: #002060; /* Dark Blue */
-    --secondary-color: #416a8e; /* blue */
-    --tertiary-color: #BDD7EE; /* light blue */
-    --primary-highlight: #CF2F7F; /* Dark pink */ 
-    --secondary-highlight: #ca5891; /*Pink */ 
-    --light-highlight: #EEB4D1; /* light pink */
-    --light-light-highlight: #EEB4D1; /* light pink */
+    --primary-color: rgb(0, 32, 96); /* Dark Blue */
+    --secondary-color: rgb(65, 106, 142); /* blue */
+    --light-highlight: rgb(238, 180, 209); /* light pink */
 }
 
 /* Override overscroll behavior */
@@ -200,7 +196,7 @@ header {
 }
 
 .join-button:hover {
-    background-color: var(--light-light-highlight);
+    background-color: var(--light-highlight);
     color: black;
 }
 
@@ -234,6 +230,6 @@ footer {
 }
 
 .contact .social-links i:hover {
-    color: var(--light-light-highlight);
+    color: var(--light-highlight);
 }
 

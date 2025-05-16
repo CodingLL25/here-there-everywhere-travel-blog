@@ -26,6 +26,7 @@ body {
     flex-direction: column;
     font-family: var(--primary-font);
     overflow-x: hidden;
+    overflow-wrap: anywhere;
 }
 
 main {
@@ -66,10 +67,15 @@ header {
     width: 100%;
 }
 
+
 #navbar {
     background-color: var(--tertiary-color);
     display: flex;
     width: 100%;
+}
+
+#site-heading {
+    text-wrap: wrap;
 }
 
 /* Main content */
@@ -167,7 +173,7 @@ header {
     background-color: rgb(247, 247, 247, 0.9);
     padding: 30px;
     color: var(--primary-color);
-    margin: 75px;
+    margin: 30px;
     max-width: 400px;
     width: 75%;
 }
